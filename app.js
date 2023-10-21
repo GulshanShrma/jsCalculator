@@ -24,7 +24,7 @@ function calculate(button){
     screenDispaly.textContent = '';
     var img = document.createElement("img");
     img.setAttribute('id','image')
-    img.setAttribute('src', 'error.png');
+    img.setAttribute('src', 'error.webp');
     screenDispaly.appendChild(img);
    }
 }
